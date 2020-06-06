@@ -15,7 +15,7 @@ header img {
     margin-right: 16px;
 }
 
-h1 {
+header h1 {
     display: inline-block;
     color: #f16059;
     font-family: 'Montserrat', sans-serif;
@@ -32,16 +32,14 @@ main {
 }
 
 .card {
-    clear: both;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 25px 0;
+    overflow: auto;
 }
 
 .image {
     float: left;
     height: 550px;
     width: 500px;
-    overflow: auto;
 }
 
 .recipe {
@@ -49,9 +47,18 @@ main {
     box-sizing: border-box;
     float: left;
     height: 550px;
-    overflow: auto;
     padding: 20px;
     width: 500px;
+}
+
+.recipe h2 {
+    color: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 0px;
+    text-transform: uppercase;
 }
 
 #cookies .image {
@@ -69,3 +76,72 @@ main {
     background-size: cover;
 }
 
+.time {
+    border: 1px solid #3b3b3b;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.time div {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 6px;
+    text-transform: uppercase;
+    width: 33.3333%;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time img {
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 15px;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    margin-right: 15px;
+    width: 205px;
+}
+
+.recipe h3 {
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+    color: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.ingredients ul {
+    line-height: 24px;
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+.directions ol {
+    line-height: 24px;
+    padding-left: 16px;
+}
