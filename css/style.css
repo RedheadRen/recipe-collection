@@ -131,17 +131,17 @@ main {
     color: #f16059;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    padding: 5px;
+    padding: 6px;
     text-transform: uppercase;
 }
 
 .ingredients ul {
     line-height: 24px;
     list-style-type: square;
-    padding-left: 16px;
+    padding-left: 15px;
 }
 
 .directions ol {
-    line-height: 24px;
-    padding-left: 16px;
+    line-height: 22px;
+    padding-left: 15px;
 }
